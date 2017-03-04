@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Front end service for 445 final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanchett/445-FrontEnd.git"
+  },
+  "author": "Ryan Hanchett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanchett/445-FrontEnd/issues"
+  },
+  "homepage": "https://github.com/hanchett/445-FrontEnd#readme",
+  "dependencies": {
+    "seriate": "^0.9.0"
+  }
+}
