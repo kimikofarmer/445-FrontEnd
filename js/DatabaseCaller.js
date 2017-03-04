@@ -12,7 +12,7 @@ var config = {
 sql.setDefaultConfig( config );
 
 sql.execute( {  
-        query: "SELECT * FROM INFORMATION_SCHEMA.TABLES"
+        query: "SELECT * FROM TEAM"
     } ).then( function( results ) {
         console.log( results );
     }, function( err ) {
