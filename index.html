@@ -1,8 +1,48 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Major League Soccer Database</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
     <body>
-        blah
-    <script type="text/javascript" src="js/DatabaseCaller.js"></script>
+        <!--Add player: FirstName, LastName, Nickname, DOB-->
+        
+        <div class="col col-sm-4">
+            <form id="data-form">
+                <legend>Major League Soccer Database</legend>
+                <div>
+                    <ul class='list-unstyled'>
+                        <h2>Add A Player</h2>
+                        <li class="form-group">
+                            <label for="first-name" class="control-label">First Name</label>
+                            <input type="text" id="" class="form-control"
+                                placeholder="Enter something" required/>
+                        </li>
+                        <li class="form-group">
+                            <label for="last-name" class="control-label">Last Name</label>
+                            <input type="text" id="" class="form-control"
+                                placeholder="Enter something" required/>
+                        </li>
+                        <li class="form-group">
+                            <label for="birth-date" class="control-label">Date of Birth</label>
+                            <input type="text" id="" class="form-control"
+                                placeholder="Enter something" required/>
+                        </li> 
+                        <li class="form-group">
+                            <label for="nick-name" class="control-label">Nickname</label>
+                            <input type="text" id="" class="form-control"
+                                placeholder="Enter something" required/>
+                        </li>                     
+                        <li class="form-group">
+                            <button id="add-button" type="submit" class="btn btn-primary">Add Player</button>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <script type="text/javascript" src="js/DatabaseCaller.js"></script>
     </body>
 
 </html>
